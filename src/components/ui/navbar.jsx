@@ -18,7 +18,7 @@ useEffect(() => {
     
     return(
         <>
-        <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass ' : 'bg-transparent'}`}>
+        <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass' : ''}`}>
             <nav className="flex justify-between container mx-auto px-6 py-4">
                 <div className="flex gap-2 items-center ">
                     <img src={AkanoIcon} className="max-w-7 w-full" alt="" />
