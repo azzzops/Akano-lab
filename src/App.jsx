@@ -12,7 +12,7 @@ export default function App() {
         <div className="absolute inset-0 bg-[hsl(222,47%,5%)] z-0"></div>
 
         {/* Navbar on top with backdrop-filter */}
-        <NavBar className="glass fixed top-0 left-0 w-full z-10" />
+        <NavBar />
 
         {/* Hero Section */}
         <section
@@ -20,7 +20,7 @@ export default function App() {
           style={{ background: "var(--gradient-subtle)" }}
         >
           <div className="absolute inset-0 grid-background"></div>
-          <HeroSection className="relative z-10" />
+          <HeroSection/>
         </section>
 
         {/* About Section */}
