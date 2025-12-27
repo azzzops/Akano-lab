@@ -143,8 +143,8 @@
 
   .glass-subtle {
     background: hsl(222 30% 12% / 0.5);
-    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
     border: 1px solid hsl(255 255% 255% / 0.05);
     box-shadow: 
       0 4px 24px hsl(0 0% 0% / 0.2),
@@ -157,8 +157,8 @@
       hsl(222 30% 12% / 0.2) 0%,
       hsl(222 30% 8% / 0.5) 100%
     );
-    backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
     border: 1px solid hsl(187 100% 50% / 0.08);
     box-shadow: 
       0 8px 32px hsl(0 0% 0% / 0.25),
