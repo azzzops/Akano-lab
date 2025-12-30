@@ -53,7 +53,7 @@ export default function Founder(){
                             </div>)
                         }
                     </div>
-                    <a href='' className='flex  gap-3 text-xl text-white items-center w-fit px-5 py-2 rounded-xl bg-[hsla(187,100%,50%,0.1)]'><span>Contact for Collaboration </span><ExternalLink /> </a>
+                    <a href='' className='flex text-nowrap text-[16px] gap-3 md:text-xl text-white items-center w-fit px-5 py-2 rounded-xl bg-[hsla(187,100%,50%,0.1)]'><span>Contact for Collaboration </span><ExternalLink /> </a>
                 </div>
             </div>
             <div>
