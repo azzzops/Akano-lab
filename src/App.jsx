@@ -3,6 +3,8 @@ import About from "./components/ui/about";
 import HeroSection from "./components/ui/herosection";
 import VisionMission from "./components/ui/visionmission";
 import Products from "./components/ui/products";
+import RecognitionSection from "./components/ui/recognition";
+import Founder from "./components/ui/leadership";
 export default function App(){
   return(
     <>
@@ -14,14 +16,21 @@ export default function App(){
           </div>
         </section>
         
-        <section className="flex justify-center items-center  p-10 min-h-105 bg-secondary/20">
+        <section id="about" className="flex justify-center items-center  p-10 min-h-105 bg-secondary/20">
           <About /> 
         </section>
-        <section className="flex justify-center items-center  p-10 min-h-105 grid-background">
+        <section id="vision" className="flex justify-center items-center  p-10 min-h-105 grid-background">
           <VisionMission /> 
         </section>
-        <section className="flex justify-center items-center  p-10 min-h-105 bg-[#0215264f]">
+        <section id="product" className="flex justify-center items-center  p-10 min-h-105 bg-[#0215264f]">
           <Products /> 
+        </section>
+        <section className="flex justify-center items-center  p-10 min-h-105 relative">
+          <div className="absolute inset-0 opacity-70 grid-background"></div>
+          <RecognitionSection /> 
+        </section>
+        <section id="founder" className="flex justify-center items-center p-10 min-h-105 bg-[#0215264f]">
+          <Founder /> 
         </section>
       </main>
     </>

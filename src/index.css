@@ -17,7 +17,7 @@
     
     --color-foreground: #0B192C;
     --color-default-font: hsl(215 20% 55%);
- 
+    --color-muted-foreground: hsl(215 20% 55%);
     --color-cta: ;
     --color-for-border: hsl(187 100% 50%);
     --color-left-start: #132440a0;

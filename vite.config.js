@@ -12,4 +12,7 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  css: {
+    transformer: 'postcss', // Force PostCSS instead of Lightning CSS
+  }
 })
