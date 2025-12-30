@@ -20,7 +20,7 @@ export default function Founder(){
             <div className='flex glass p-5 rounded-xl flex-col justify-between mt-5 items-center xl:flex-row gap-9'>
                 <div className='founder glass-card p-5   max-w-110 rounded-2xl'>
                     <div className='w-full relative'>
-                        <div className='absolute inset-0 max-w-full bg-black/60 rounded-2xl'></div>
+                        <div className='absolute inset-0 max-w-full bg-black/50 rounded-2xl'></div>
                         <img src={FounderImage} className='w-full h-full object-cover object-center rounded-2xl' alt="The Founder" />
                     </div>
                 </div>
