@@ -85,7 +85,7 @@ const faqs = [
     id: 11,
     question: "When is the next academy cohort starting?",
     answer:
-      "The second cohort of Ìmòforge Academy is scheduled to begin in February 2026."
+      "The second cohort of Ìmòforge Academy is scheduled to begin in February 2nd, 2026."
   },
   {
     id: 12,
@@ -148,7 +148,7 @@ export default function Faqs() {
   };
 
   return (
-    <div className="z-20 max-w-180 glass w-full p-6 rounded-xl">
+    <div className="z-20 max-w-180 glass-subtle w-full p-6 rounded-xl">
       <div className="space-y-2.5 text-center">
         <h1 className="text-center text-white md:text-4xl text-2xl font-bold">Frequently Asked Questions</h1>
         <p className="text-center max-w-md m-auto text-default-font md:text-[16px] text-[16px] font-bold">Everything you need to know about Àkàńó Labs. Can't find the answer you're looking for? <a href="" className="text-for-border">Contact Us</a></p>
@@ -156,8 +156,8 @@ export default function Faqs() {
 
       {faqs.map((q) => (
         <div key={q.id} className="flex text-xl border-b border-default-font/20 last:border-none flex-col gap-3 p-4">
-          <div className="flex items-center gap-2 group text-[16px] md:text-xl justify-between" onClick={() => toggleFaq(q.id)}>
-            <span className="text-white md:text-[16px] text-[16px] group-hover:text-for-border">{q.question}</span>
+          <div className="flex items-center gap-5 group text-[16px] md:text-xl justify-between" onClick={() => toggleFaq(q.id)}>
+            <span className="text-white md:text-[16px] text-[14px] group-hover:text-for-border">{q.question}</span>
             <button className={`cursor-pointer ${activeIndex === q.id ? " bg-for-border/10" : "bg-white/10" } rounded-full p-1 text-default-font`}>
               {activeIndex === q.id ? <Minus strokeWidth={3}/> : <Plus strokeWidth={3}/>}
             </button>

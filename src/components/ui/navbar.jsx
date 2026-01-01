@@ -10,7 +10,7 @@ export default function NavBar(){
 
     return(
         <>
-        <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass`}>
+        <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass-subtle`}>
             <nav className="flex justify-between container mx-auto px-6 py-4">
                 <div className="flex gap-2 items-center ">
                     <img src={AkanoIcon} className="max-w-7 w-full" alt="" />
@@ -22,7 +22,8 @@ export default function NavBar(){
                     <a href="#product">Product</a>
                     <a href="#founder">Founder</a>
                     <a href="#contact">Contact</a>
-                    <a href="#contact" className="border border-solid text-for-border border-for-border py-2 px-4 rounded-xl">Join Academy</a>
+                    <a href="#faqs">Faqs</a>
+                    <a href="" className="border border-solid text-for-border border-for-border py-2 px-4 rounded-xl">Join Academy</a>
                 </div>
                 <div onClick={() => setIsOpened(i => i = !i)} className="text-white block md:hidden">
                 { isOpened ? <X size={24}/> : <Menu size={24}   />}
@@ -35,7 +36,8 @@ export default function NavBar(){
                         <a href="#product">Product</a>
                         <a href="#founder">Founder</a>
                         <a href="#contact">Contact</a>
-                        <a href="#contact" className="border border-solid text-for-border border-for-border py-2 px-4 rounded-xl">Join Academy</a>
+                        <a href="#faqs">Faqs</a>
+                        <a href="" className="border border-solid text-for-border border-for-border py-2 px-4 rounded-xl">Join Academy</a>
                 </div>
             </div>
         </div>

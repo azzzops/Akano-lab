@@ -32,7 +32,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="rounded-full p-px bg-linear-to-r shadow-2xl  from-left-start via-fail-middle to-right-end">
+      <div className="rounded-full p-px bg-linear-to-r shadow-2xl from-left-start via-fail-middle to-right-end">
         <div className="flex justify-center w-fit gap-3 rounded-full  bg-foreground border border-transparent py-1.5 px-4 items-center">
                 <Sparkles className="w-5 h-5 text-[#39749c]"/>
                 <h1 className="text-default-font">Technology & Innovation Lab</h1>
@@ -50,9 +50,9 @@ export default function HeroSection() {
           data-driven products, automation tools, and educational platforms in
           Web3, digital finance, and emerging technologies.
         </p>
-      <div className="flex gap-4 flex-nowrap text-sm">
-          <Button text={"Discover Our Product"} className={"border text-nowrap cursor-pointer border-solid md:text-xl bg-cta-bg py-2 px-4 rounded-xl text-white font-bold border-for-border"}/>
-          <Button text={"Join the Academy"} className={"text-white text-nowrap cursor-pointer font-bold md:text-xl"}/>
+      <div className="flex gap-4 flex-col md:flex-row flex-nowrap text-sm">
+          <a href="#product" className={`border block drop-shadow-lg hover:drop-shadow-lg hover:drop-shadow-white/20 drop-shadow-white/10 text-nowrap cursor-pointer border-solid md:text-[16px] bg-white/70 py-3 px-6 rounded-xl font-semibold text-black`}>Discover Our Product</a>
+          <a href="" className={`cursor-pointer z-3 block hover:bg-white/10 font-light text-white text-nowrap md:text-[16px] py-3 px-6 rounded-xl bg-black/40 border border-white/20 `}>Join the Academy</a>
       </div>
       </div>
     </div>

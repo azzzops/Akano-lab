@@ -36,13 +36,13 @@ export default function App(){
           <Founder /> 
         </section>
         <section className="flex justify-center items-center  p-10 min-h-105 relative">
-          <div className="absolute inset-0 opacity-40 grid-background"></div>
+          <div id="faqs" className="absolute inset-0 opacity-40 grid-background"></div>
           <Faqs /> 
         </section>
-         <section id="founder" className="flex justify-center items-center p-10 min-h-105 bg-[#0215264f]">
+         <section id="contact" className="flex justify-center items-center p-10 min-h-105 bg-[#0215264f]">
           <Contact /> 
         </section>
-        <section id="founder" className="flex items-center p-10 min-h-105"> 
+        <section className="flex items-center p-10 min-h-105"> 
         <Footer />
         </section>
       </main>
