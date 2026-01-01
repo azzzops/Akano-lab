@@ -79,7 +79,7 @@ export default function Founder(){
         w-12 h-12
         rounded-lg
         border border-border/60
-        flex items-center justify-center
+        flex items-center flex-wrap justify-center
         text-white
         glass-card
         transition-all
