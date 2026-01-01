@@ -1,3 +1,5 @@
+import { Target } from "lucide-react";
+
 const footerLinks = {
   company: [
     { label: 'About', href: '#about' },
@@ -7,9 +9,8 @@ const footerLinks = {
   ],
   connect: [
     { label: 'Contact', href: '#contact' },
-    { label: 'Twitter / X', href: '#' },
-    { label: 'LinkedIn', href: '#' },
-    { label: 'Instagram', href: '#' },
+    { label: 'Twitter / X', href: 'https://x.com/AkanoLabs' },
+    { label: 'Instagram', href: 'https://www.instagram.com/akanolabs?igsh=MWo5dGxzejkyc2dpdw==' },
   ],
 };
 
@@ -57,7 +58,7 @@ const Footer = () => {
               {footerLinks.connect.map((link) => (
                 <li key={link.label}>
                   <a
-                    href={link.href}
+                    href={link.href} target={link.label !== "Contact" ? "_blank" : undefined}
                     className="text-muted-foreground hover:text-primary transition-colors text-sm"
                   >
                     {link.label}

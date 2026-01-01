@@ -41,7 +41,7 @@ export default function HeroSection() {
       
       <div className="flex gap-9 mt-15 flex-col items-center justify-center">
           
-        <h1 className="text-white leading-tight text-5xl md:text-7xl font-bold max-w-210 text-center">
+        <h1 className="text-white leading-tight text-5xl md:text-7xl font-bold max-w-200 text-center">
           Building <span className="gradient-text text-glow">Tools</span>, <span className="gradient-text text-glow" >Talent</span>, and the{" "}
           <span className="gradient-text text-glow">Future</span>
         </h1>
@@ -52,7 +52,7 @@ export default function HeroSection() {
         </p>
       <div className="flex gap-4 flex-col md:flex-row flex-nowrap text-sm">
           <a href="#product" className={`border block drop-shadow-lg hover:drop-shadow-lg hover:drop-shadow-white/20 drop-shadow-white/10 text-nowrap cursor-pointer border-solid md:text-[16px] bg-white/70 py-3 px-6 rounded-xl font-semibold text-black`}>Discover Our Product</a>
-          <a href="" className={`cursor-pointer z-3 block hover:bg-white/10 font-light text-white text-nowrap md:text-[16px] py-3 px-6 rounded-xl bg-black/40 border border-white/20 `}>Join the Academy</a>
+          <a href="https://t.me/+PDthiNCZhTlmYTJk" target="_blank"  className={`cursor-pointer z-3 block hover:bg-white/10 font-light text-white text-nowrap md:text-[16px] py-3 px-6 rounded-xl bg-black/40 border border-white/20 `}>Join the Academy</a>
       </div>
       </div>
     </div>

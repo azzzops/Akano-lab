@@ -57,7 +57,8 @@ export default function Contact() {
         <div className="flex justify-center gap-6 mt-12">
 
           <a
-            href="#"
+            href="https://x.com/AkanoLabs"
+            target="_blank"
             className="w-10 h-10 rounded-lg border border-border/60 flex items-center justify-center text-white glass-card transition-all"
             aria-label="Twitter"
           >
@@ -65,7 +66,8 @@ export default function Contact() {
           </a>
 
           <a
-            href="#"
+            href="https://www.instagram.com/akanolabs?igsh=MWo5dGxzejkyc2dpdw=="
+            target="_blank"
             className="w-10 h-10 rounded-lg border border-border/60 flex items-center justify-center text-white glass-card transition-all"
             aria-label="Instagram"
           >
