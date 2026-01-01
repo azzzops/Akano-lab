@@ -158,7 +158,7 @@ export default function Faqs() {
         <div key={q.id} className="flex text-xl border-b border-default-font/20 last:border-none flex-col gap-3 p-4">
           <div className="flex items-center gap-2 group text-[16px] md:text-xl justify-between" onClick={() => toggleFaq(q.id)}>
             <span className="text-white md:text-[16px] text-[16px] group-hover:text-for-border">{q.question}</span>
-            <button className="cursor-pointer bg-for-border/10 rounded-full p-1 text-default-font">
+            <button className={`cursor-pointer ${activeIndex === q.id ? " bg-for-border/10" : "bg-white/10" } rounded-full p-1 text-default-font`}>
               {activeIndex === q.id ? <Minus strokeWidth={3}/> : <Plus strokeWidth={3}/>}
             </button>
           </div>

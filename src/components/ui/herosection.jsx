@@ -1,11 +1,37 @@
-import { div } from "motion/react-client";
+import { motion } from "motion/react";
 import { Sparkles } from "lucide-react";
 import Button from "../button";
 export default function HeroSection() {
   return (
     <>
-    <div className="flex flex-col px-10 max-w-300 m-auto items-center justify-center mt-30">
+    <div className="relative flex flex-col px-10 max-w-300 m-auto items-center justify-center mt-30">
       
+       <motion.div 
+        className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl"
+        animate={{ 
+          y: [0, -20, 0],
+          scale: [1, 1.1, 1],
+        }}
+        transition={{ 
+          duration: 6, 
+          repeat: Infinity, 
+          ease: "easeInOut" 
+        }}
+      />
+      <motion.div 
+        className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl"
+        animate={{ 
+          y: [0, 20, 0],
+          scale: [1, 0.95, 1],
+        }}
+        transition={{ 
+          duration: 8, 
+          repeat: Infinity, 
+          ease: "easeInOut",
+          delay: 1 
+        }}
+      />
+
       <div className="rounded-full p-px bg-linear-to-r shadow-2xl  from-left-start via-fail-middle to-right-end">
         <div className="flex justify-center w-fit gap-3 rounded-full  bg-foreground border border-transparent py-1.5 px-4 items-center">
                 <Sparkles className="w-5 h-5 text-[#39749c]"/>
