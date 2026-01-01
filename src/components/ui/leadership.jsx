@@ -68,7 +68,7 @@ export default function Founder(){
 
                     <div className='flex items-center justify-center flex-col gap-4'>
                         <p className='text-white flex gap-2 items-center text-center text-xl'><span>Connect with me</span> <ExternalLink size={15} /></p>
-                       <div className="flex gap-5 items-center">
+                       <div className="flex gap-5 flex-wrap items-center">
   {socials.map(({ href, icon: Icon, label }) => (
     <a
       key={label}
@@ -79,7 +79,7 @@ export default function Founder(){
         w-12 h-12
         rounded-lg
         border border-border/60
-        flex items-center flex-wrap justify-center
+        flex items-center justify-center
         text-white
         glass-card
         transition-all
