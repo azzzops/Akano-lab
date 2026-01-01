@@ -170,7 +170,7 @@ export default function Faqs() {
                 animate={{ height: "auto", opacity: 1, }}
                 exit={{ height: 0, opacity: 0 }}
                 transition={{ duration: 0.3, ease: "linear" }}
-                className="overflow-hidden text-white/60 text-[17px]"
+                className="overflow-hidden text-white/60 text-[14px] md:text-[16px]"
               >
                 {Array.isArray(q.answer) ? (
                   <ul className="list-disc pl-6">
