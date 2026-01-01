@@ -1,6 +1,18 @@
-import { Quote, ExternalLink, Award, Users, Rocket, BookOpen } from 'lucide-react';
+import { Quote, ExternalLink, Award, Users, Rocket, BookOpen, Instagram} from 'lucide-react';
+import { BsTelegram, BsTiktok, BsTwitterX, BsLinkedin} from "react-icons/bs";
+import { TbBrandLinktree } from 'react-icons/tb';
+
 import { div } from 'motion/react-client';
 import FounderImage from "../../assets/IMG-20251222-WA0017.jpg"
+
+const socials = [
+  { href: "https://www.instagram.com/ludethelegend?igsh=NnU2MG45bnUzMG1z", icon: Instagram, label: "Instagram" },
+  { href: "https://x.com/ludethelegend", icon: BsTwitterX, label: "Twitter" },
+  { href: "https://www.tiktok.com/@ludethelegend?_r=1&_t=ZS-92ibqL0vRdI ", icon: BsTiktok, label: "TikTok" },
+  { href: "https://t.me/ludethelegend_portfolio ", icon: BsTelegram, label: "Telegram" },
+  { href: "https://linktr.ee/Waliullahi", icon: TbBrandLinktree, label: "Linktree" },
+  { href: "https://www.linkedin.com/in/oyelude-waliullahi-26a686368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: BsLinkedin, label: "Linkedin" },
+];
 
 const accomplishments = [
   { icon: BookOpen, text: 'Founded Ìmòforge Academy with a fast-growing global alumni network' },
@@ -53,7 +65,34 @@ export default function Founder(){
                             </div>)
                         }
                     </div>
-                    <a href='#contact' className='flex text-nowrap text-[16px] gap-3 md:text-xl text-white items-center w-fit px-5 py-2 rounded-xl bg-[hsla(187,100%,50%,0.1)]'><span>Contact for Collaboration </span><ExternalLink /> </a>
+
+                    <div className='flex items-center justify-center flex-col gap-4'>
+                        <p className='text-white flex gap-2 items-center text-center text-xl'><span>Connect with me</span> <ExternalLink size={15} /></p>
+                       <div className="flex gap-5 items-center">
+  {socials.map(({ href, icon: Icon, label }) => (
+    <a
+      key={label}
+      href={href}
+      target="_blank"
+      aria-label={label}
+      className="
+        w-12 h-12
+        rounded-lg
+        border border-border/60
+        flex items-center justify-center
+        text-white
+        glass-card
+        transition-all
+        hover:scale-110
+          hover:border-blue-400/60
+  hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.8)]
+      "
+    >
+      <Icon className="w-6 h-6" />
+    </a>
+  ))}
+</div>
+                    </div>
                 </div>
             </div>
             <div>

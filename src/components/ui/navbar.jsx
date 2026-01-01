@@ -23,7 +23,6 @@ export default function NavBar(){
                     <a href="#founder">Founder</a>
                     <a href="#contact">Contact</a>
                     <a href="#faqs">Faqs</a>
-                    <a href="" className="border border-solid text-for-border border-for-border py-2 px-4 rounded-xl">Join Academy</a>
                 </div>
                 <div onClick={() => setIsOpened(i => i = !i)} className="text-white block md:hidden">
                 { isOpened ? <X size={24}/> : <Menu size={24}   />}
@@ -37,7 +36,6 @@ export default function NavBar(){
                         <a href="#founder">Founder</a>
                         <a href="#contact">Contact</a>
                         <a href="#faqs">Faqs</a>
-                        <a href="" className="border border-solid text-for-border border-for-border py-2 px-4 rounded-xl">Join Academy</a>
                 </div>
             </div>
         </div>
