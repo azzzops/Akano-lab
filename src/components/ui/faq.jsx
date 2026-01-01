@@ -151,7 +151,7 @@ export default function Faqs() {
     <div className="z-20 max-w-180 glass-subtle w-full p-6 rounded-xl">
       <div className="space-y-2.5 text-center">
         <h1 className="text-center text-white md:text-4xl text-2xl font-bold">Frequently Asked Questions</h1>
-        <p className="text-center max-w-md m-auto text-default-font md:text-[16px] text-[16px] font-bold">Everything you need to know about Àkàńó Labs. Can't find the answer you're looking for? <a href="" className="text-for-border">Contact Us</a></p>
+        <p className="text-center max-w-md m-auto text-default-font md:text-[16px] text-[16px] font-bold">Everything you need to know about Àkàńó Labs. Can't find the answer you're looking for? <a href="#contact" className="text-for-border">Contact Us</a></p>
       </div>
 
       {faqs.map((q) => (
