@@ -31,7 +31,7 @@ const recognitions = [
               </div>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
                   {recognitions.map(r => (
-                      <div className="flex-10 glass-card flex items-center justify-center py-8 px-2 rounded-2xl bg-[#0a1524] text-center  flex-col gap-2">
+                      <div className="flex-10 glass-card glass-highlight flex items-center justify-center py-8 px-2 rounded-2xl bg-[#0a1524] text-center  flex-col gap-2">
                           <div className="bg-for-border/10 p-3 rounded-2xl w-fit">
                             <Award size={30} className="text-for-border"/>
                           </div>

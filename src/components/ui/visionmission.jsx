@@ -28,7 +28,7 @@ export default function VisionMission() {
                   <Rocket className="w-7 h-7 text-for-border" />
               </div>
 
-                <h1  className="text-white font-bold text-2xl">Mission</h1>
+                <h1 className="text-white font-bold text-2xl">Mission</h1>
                 <p className="text-[18px] text-default-font font-semibold">
                   Develop <span>cutting edge products</span>, educational platforms,
                   and automation tools that empower individuals and businesses to

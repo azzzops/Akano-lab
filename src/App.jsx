@@ -5,6 +5,9 @@ import VisionMission from "./components/ui/visionmission";
 import Products from "./components/ui/products";
 import RecognitionSection from "./components/ui/recognition";
 import Founder from "./components/ui/leadership";
+import Faqs from "./components/ui/faq";
+import Contact from "./components/ui/contactSection";
+import Footer from "./components/ui/footer";
 export default function App(){
   return(
     <>
@@ -31,6 +34,16 @@ export default function App(){
         </section>
         <section id="founder" className="flex justify-center items-center p-10 min-h-105 bg-[#0215264f]">
           <Founder /> 
+        </section>
+        <section className="flex justify-center items-center  p-10 min-h-105 relative">
+          <div className="absolute inset-0 opacity-40 grid-background"></div>
+          <Faqs /> 
+        </section>
+         <section id="founder" className="flex justify-center items-center p-10 min-h-105 bg-[#0215264f]">
+          <Contact /> 
+        </section>
+        <section id="founder" className="flex items-center p-10 min-h-105"> 
+        <Footer />
         </section>
       </main>
     </>
