@@ -22,7 +22,7 @@ export default function NavBar(){
                     <a href="#product">Product</a>
                     <a href="#founder">Founder</a>
                     <a href="#contact">Contact</a>
-                    <a href="#faqs">Faqs</a>
+                    <a href="#faqs">FAQs</a>
                 </div>
                 <div onClick={() => setIsOpened(i => i = !i)} className="text-white block md:hidden">
                 { isOpened ? <X size={24}/> : <Menu size={24}   />}
