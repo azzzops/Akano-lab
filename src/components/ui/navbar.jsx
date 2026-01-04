@@ -35,7 +35,7 @@ export default function NavBar(){
                         <a href="#product">Product</a>
                         <a href="#founder">Founder</a>
                         <a href="#contact">Contact</a>
-                        <a href="#faqs">Faqs</a>
+                        <a href="#faqs">FAQs</a>
                 </div>
             </div>
         </div>
