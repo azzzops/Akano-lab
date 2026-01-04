@@ -35,14 +35,14 @@ export default function App(){
         <section id="founder" className="flex justify-center items-center p-10 min-h-105 bg-[#0215264f]">
           <Founder /> 
         </section>
-        <section className="flex justify-center items-center  p-10 min-h-105 relative">
+        <section className="flex justify-center items-center  p-5 min-h-105 relative">
           <div id="faqs" className="absolute inset-0 opacity-40 grid-background"></div>
           <Faqs /> 
         </section>
          <section id="contact" className="flex justify-center items-center p-10 min-h-105 bg-[#0215264f]">
           <Contact /> 
         </section>
-        <section className="flex items-center p-10 min-h-105"> 
+        <section className="flex items-center p-2 min-h-105"> 
         <Footer />
         </section>
       </main>
